@@ -34,7 +34,7 @@ export const hero = {
 
 export const stats = [
   { value: "2 aulas", label: "Sextas ao vivo, em maio" },
-  { value: "10h", label: "De conteúdo prático" },
+  { value: "20h", label: "De conteúdo prático" },
   { value: "NBR\n16636-4:2023", label: "Conformidade ABNT" },
   { value: "7 dias", label: "Garantia incondicional" },
 ] as const;
@@ -237,7 +237,7 @@ export const pricing = {
   paymentNote: "Pagamento 100% seguro via Eduzz",
   guarantee: {
     title: "Garantia de 7 dias",
-    body: "Se em até 7 dias você achar que o curso não valeu a pena, é só mandar um e-mail. A gente devolve o valor integral, sem ficar perguntando o motivo.",
+    body: "Se em até 7 dias você achar que o curso não valeu a pena, a gente devolve o valor integral, sem ficar perguntando o motivo.",
     icon: "🛡️",
   },
 } as const;
@@ -245,7 +245,7 @@ export const pricing = {
 export const included = {
   title: "O que está incluído",
   items: [
-    "2 aulas ao vivo (10h de conteúdo total)",
+    "2 aulas ao vivo (20h de conteúdo total)",
     "Acesso ao grupo exclusivo WhatsApp",
     "Certificado em papel timbrado assinado",
     "Conformidade ABNT NBR 16636-4:2023",

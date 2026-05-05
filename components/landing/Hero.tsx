@@ -1,5 +1,6 @@
 import { getCheckoutUrl, hero } from "@/content/landing";
 import { CtaLink } from "./CtaLink";
+import { FadeIn } from "@/components/ui/fade-in";
 
 export function Hero() {
   const checkout = getCheckoutUrl();
@@ -26,7 +27,7 @@ export function Hero() {
         aria-hidden
       />
 
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <FadeIn className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto flex w-fit items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1.5 backdrop-blur-md">
           <span className="relative flex h-2 w-2">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-white opacity-70" />
@@ -66,7 +67,7 @@ export function Hero() {
             {hero.ctaLabel}
           </CtaLink>
         </div>
-      </div>
+      </FadeIn>
     </header>
   );
 }
