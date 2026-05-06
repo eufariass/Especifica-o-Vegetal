@@ -230,9 +230,9 @@ export const pricing = {
   rationale:
     "Faz a conta: uma única especificação bem feita já pode somar centenas de reais ao seu honorário. O curso costuma se pagar logo no primeiro projeto que você assina com mais segurança.",
   productName: "Especificação Vegetal: da Concepção à Prática",
-  installmentLabel: "12x R$ 25,75",
+  installmentLabel: "12x R$ 20,60",
   installmentNote: "12 parcelas sem juros",
-  cashLabel: "ou R$ 249,00 à vista",
+  cashLabel: "ou R$ 199,20 à vista",
   ctaLabel: "Garantir minha vaga agora",
   paymentNote: "Pagamento 100% seguro via Eduzz",
   guarantee: {
@@ -259,7 +259,7 @@ export const faq = {
   items: [
     {
       q: "Qual o investimento do curso?",
-      a: "R$ 249,00 à vista, ou em até 12x de R$ 25,75 sem juros no cartão. Valor e condições podem ser atualizados na página de checkout da Eduzz.",
+      a: "R$ 199,20 à vista, ou em até 12x de R$ 20,60 sem juros no cartão. Valor e condições podem ser atualizados na página de checkout da Eduzz.",
     },
     {
       q: "Terei suporte durante e após o curso?",
@@ -285,13 +285,13 @@ export const finalCta = {
   subtitle: "Entregue projetos com a técnica que o seu trabalho merece.",
   note: "As vagas para as aulas de maio são limitadas. Garanta a sua antes de fechar a turma.",
   ctaLabel: "Quero garantir minha vaga",
-  priceLine: "12x de R$ 25,75  ·  ou R$ 249,00 à vista  ·  Garantia de 7 dias",
+  priceLine: "12x de R$ 20,60  ·  ou R$ 199,20 à vista  ·  Garantia de 7 dias",
 } as const;
 
 export const footer = {
   legalLine: "Política de Privacidade",
   termsLine: "Termos de Uso",
   stickyTitle: "Especificação Vegetal — Prof. Alexander",
-  stickyPrice: "12x de R$ 25,75  ·  ou R$ 249,00 à vista",
+  stickyPrice: "12x de R$ 20,60  ·  ou R$ 199,20 à vista",
   stickyCta: "Garantir vaga",
 } as const;
