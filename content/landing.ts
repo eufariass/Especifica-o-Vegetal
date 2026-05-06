@@ -5,7 +5,7 @@
 export function getCheckoutUrl(): string {
   const url = process.env.NEXT_PUBLIC_EDUZZ_CHECKOUT_URL;
   if (url && url.length > 0) return url;
-  return "#investimento";
+  return "https://sun.eduzz.com/G92KZ557WE?cupom=EDZ020";
 }
 
 export const site = {
