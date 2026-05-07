@@ -33,7 +33,7 @@ export const hero = {
 } as const;
 
 export const stats = [
-  { value: "2 aulas", label: "Sextas ao vivo, em maio" },
+  { value: "2 aulas", label: "Sábados ao vivo, em maio" },
   { value: "20h", label: "De conteúdo prático" },
   { value: "NBR\n16636-4:2023", label: "Conformidade ABNT" },
   { value: "7 dias", label: "Garantia incondicional" },
@@ -186,13 +186,13 @@ export const schedule = {
     {
       month: "Maio",
       day: "16",
-      title: "Aula 1 — Sexta-feira",
+      title: "Aula 1 — Sábado",
       hours: "Das 8h às 13h  ·  Das 14h às 19h",
     },
     {
       month: "Maio",
       day: "30",
-      title: "Aula 2 — Sexta-feira",
+      title: "Aula 2 — Sábado",
       hours: "Das 8h às 13h  ·  Das 14h às 19h",
     },
   ],
